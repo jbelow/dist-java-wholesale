@@ -20,6 +20,7 @@ create table wholesale_order
 (
     order_id int auto_increment,
     purchase_order_num varchar(100) not null,
+
     terms varchar(100) not null,
     customer_id int not null,
     product_id int not null,
